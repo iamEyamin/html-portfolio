@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eyamin's Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 36px;
+      color: #007BFF;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 30px;
+      color: #555;
+    }
+
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #007BFF;
+      transition: transform 0.3s ease;
+    }
+
+    .profile-img:hover {
+      transform: scale(1.05);
+    }
+
+    .projects {
+      margin-top: 40px;
+    }
+
+    .project {
+      margin-bottom: 30px;
+    }
+
+    .project img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    a {
+      color: #007BFF;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Eyamin's Portfolio</h1>
+    <a href="./public/about.html">
+      <img src="./assets/images/Eyamin 3x4.jpg" alt="Eyamin's Profile Photo" class="profile-img">
+    </a>
+    <h2>I'm a Web Developer</h2>
+
+    <div class="projects">
+      <div class="project">
+        <h3><a href="./public/Movie Ranking By Eyamin.html">🎬 Movie Ranking Project</a></h3>
+        <img src="./assets/images/Movie_ranking_Eyamin.png" alt="Movie Ranking Screenshot">
+      </div>
+
+      <div class="project">
+        <h3><a href="./public/Birthday-Invite of Eyamin.html">🎉 Birthday Invitation Project</a></h3>
+        <img src="./assets/images/Birthday_Eyamin.png" alt="Birthday Invitation Screenshot">
+      </div>
+    </div>
+
+    <div class="footer">
+      <a href="./public/contact.html">📬 Contact Me</a>
+    </div>
+  </div>
+
+</body>
+</html>
